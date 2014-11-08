@@ -89,9 +89,11 @@ of how to structure the CSS of a web application, in an organized scalable way.
 * Try to avoid nesting as much as possible, don't use more than 3 levels of
   nesting.
 
-* Use `em` instead of `px` or `pt` for `font-size` and `line-height`
-  definitions. Except for when the `line-height` has to match the fixed box
-  height, in which case the `line-height` is the elements `height` minus 1.
+* Use `em` instead of `px` or `pt` for `font-size`
+
+* Use unit-less `line-height` values Except for when the `line-height` has to
+  match the fixed box height, in which case the `line-height` is the elements
+  `height` minus 1.
 
 * Prefer selecting elements through class names, instead of element name or
   through attributes.
